@@ -1,0 +1,26 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    border-radius: 4px;
+    border: 1px solid gray;
+    padding: 6px;
+    height: 28px;
+}
+
+#signup-feedback {
+    color: red;
+}
+
+#signin-feedback {
+    color: blue;
+}
+
+.tweet-text {
+    color: #1e8a91;
+}

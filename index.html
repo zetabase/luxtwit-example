@@ -1,0 +1,45 @@
+<html><head>
+<meta charset="utf-8">
+<!-- This includes Zetabase and injects the `Zb` variable into your environment. -->
+<script src="https://zetabase.io/static/assets/js/zetabase-web-latest.js"  charset="utf-8" ></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="./script.js"  charset="utf-8" ></script>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <h3>LuxTwit Demo</h3>
+    <div>
+        <h4>Sign up</h4>
+        <p>Handle: <input id="signup-id" type="text" /></p>
+        <p>Email: <input id="signup-email" type="text" /></p>
+        <p>Mobile number: <input id="signup-mobile" type="text"  /></p>
+        <p>Password: <input id="signup-pass" type="password" /></p>
+        <p id="signup-feedback">&nbsp;</p>
+        <p><a href="#" id="submit-signup">Sign up</a></p>
+        <p id="confirm-code" style="display: none">
+            <input id="signup-code" type="text" />
+            &nbsp;&nbsp;
+            <a href="#" id="submit-code">Submit confirmation code</a>
+        </p>
+        <hr/>
+    </div>
+    <div>
+        <h4>Sign in</h4>
+        <p>Handle: <input id="signin-id" type="text"  /></p>
+        <p>Password: <input id="signin-pass" type="password" /></p>
+        <p id="signin-feedback">&nbsp;</p>
+        <p><a href="#" id="submit-signin">Sign in</a></p>
+        <hr/>
+    </div>
+    <div>
+        <h4>Functionality</h4>
+        <p>Latest tweets:</p>
+        <p id="content">&nbsp;</p>
+        <p>Message: <input id="tweet-text" type="text" /></p>
+        <p><a href="#" id="submit-tweet">Tweet</a></p>
+        <hr/>
+    </div>
+</body>
+</html>
